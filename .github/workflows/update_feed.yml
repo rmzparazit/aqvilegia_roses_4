@@ -1,8 +1,8 @@
 name: Auto-Update YML Feed
-on:
-  schedule:
-    - cron: '0 3 * * *' 
-  workflow_dispatch: 
+#on:
+  #schedule:
+  #  - cron: '0 3 * * *' 
+  #workflow_dispatch: 
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
